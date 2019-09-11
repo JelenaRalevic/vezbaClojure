@@ -1,0 +1,28 @@
+Microsoft Windows [Version 10.0.18362.295]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+c:\Users\Jelena\clojure-primer1\src\clojure_primer1>lein run
+lein run
+I am a little teapot!
+c:\Users\Jelena\clojure-primer1\src\clojure_primer1>
+
+c:\Users\Jelena\clojure-primer1\src\clojure_primer1>lein uberjar
+lein uberjar
+Compiling clojure-primer1.core
+Created c:\Users\Jelena\clojure-primer1\target\uberjar\clojure-primer1-0.1.0-SNAPSHOT.jar
+Created c:\Users\Jelena\clojure-primer1\target\uberjar\clojure-primer1-0.1.0-SNAPSHOT-standalone.jar
+c:\Users\Jelena\clojure-primer1\src\clojure_primer1>java -jar target/uberjar/clojure-primer1-0.1.0-SNAPSHOT-standalone.jar
+java -jar target/uberjar/clojure-primer1-0.1.0-SNAPSHOT-standalone.jar
+Error: Unable to access jarfile target/uberjar/clojure-primer1-0.1.0-SNAPSHOT-standalone.jar
+
+c:\Users\Jelena\clojure-primer1\src\clojure_primer1>cd ..
+cd ..
+
+c:\Users\Jelena\clojure-primer1\src>cd ..
+cd ..
+
+c:\Users\Jelena\clojure-primer1> java -jar target/uberjar/clojure-primer1-0.1.0-SNAPSHOT-standalone.jar
+ java -jar target/uberjar/clojure-primer1-0.1.0-SNAPSHOT-standalone.jar
+I am a little teapot!
+
+c:\Users\Jelena\clojure-primer1>
